@@ -46,6 +46,8 @@ update actor
 set first_name = 'GROUCHO'
 where first_name = 'HARPO' and actor_id = 172;
 -- 5
+SHOW CREATE TABLE address;
+ 
 -- 6 
 -- Use JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
 select * from staff;
